@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+}
+
+.black {
+  border-bottom: 1px solid #bbb;
+}
+
+.plus {
+  border-right: 4px solid #198754;
+}
+
+.minus {
+  border-right: 4px solid #dc3545;
+}
+
+.delete {
+  background-color: #dc3545;
+  border: none;
+  font-size: 20px;
+  line-height: 0.5;
+  padding-bottom: 7px;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+li:hover .delete {
+  opacity: 1;
+}
